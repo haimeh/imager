@@ -12,9 +12,9 @@
 #include <R.h>
 #include <Rcpp.h>
 
-#ifdef _OPENMP
+
 #define cimg_use_openmp 1
-#endif
+
 
 #define cimg_use_abort
 #ifdef cimg_use_openmp
